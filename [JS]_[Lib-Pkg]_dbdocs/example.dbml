@@ -1,0 +1,32 @@
+// ファイル名：docs/design/sample.dbml
+// 設計意図：ユーザー、商品、注文の基本的なECサイトの構造を定義し、リレーションを可視化する。
+
+// --- テーブル定義 ---
+
+Table users {
+  id integer [pk, increment] // 主キー：自動で番号が振られる（初心者：ユーザーを特定するID）
+  username varchar [not null] // ユーザー名（空欄不可）
+  email varchar [unique]      // メールアドレス（重複不可）
+  created_at timestamp        // 登録日時
+}
+
+Table products {
+  id integer [pk, increment]
+  name varchar [not null]     // 商品名
+  price integer               // 価格（数値）
+  description text            // 商品説明
+}
+
+Table orders {
+  id integer [pk, increment]
+  user_id integer             // どのユーザーが注文したか（外部キー）
+  product_id integer          // どの商品を買ったか（外部キー）
+  order_date timestamp        // 注文日時
+}
+
+// --- リレーション（関連性）の明示 ---
+// 初心者解説：Refは「参照」を意味し、テーブル同士を線で繋ぎます。
+// 「>」は「多対1」を意味します（例：1人のユーザーは複数の注文を持つ）。
+
+Ref: orders.user_id > users.id
+Ref: orders.product_id > products.id
