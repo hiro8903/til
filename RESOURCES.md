@@ -24,14 +24,22 @@
     *   📝 **[What]** [Enum の基本と魔法](./%5BRuby%5D_%5BFw%5D_Rails/enum-basics-and-usage.md) / **[Why]** [Enum vs Boolean の比較](./%5BRuby%5D_%5BFw%5D_Rails/role-management-enum-vs-boolean.md)
     *   🔗 [ActionView::FormHelper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html)
     *   📝 **[What]** [フォームヘルパーとHTML属性の解剖](./%5BRuby%5D_%5BFw%5D_Rails/form-helpers-and-attributes.md)
+    *   🔗 [Hotwire](https://hotwired.dev/) ([Turbo](https://turbo.hotwired.dev/) / [Stimulus](https://stimulus.hotwired.dev/) / [Strada](https://strada.hotwired.dev/))
+    *   🔗 [Tailwind CSS (official)](https://tailwindcss.com/)
+    *   📝 **[Why]** [モダンフロントエンド技術の比較と立ち位置](./%5BRuby%5D_%5BFw%5D_Rails-Frontend-Standard/modern-frontend-comparison.md) / **[Decision]** [ADR 005: フロントエンド技術選定](../../environment/mfg_core/docs/architecture/adr/005-frontend-stack-selection.md)
 *   **データベース・設計**
     *   🔗 [Rails Guides: Migrations](https://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-new-table)
     *   📝 **[Why]** [マイグレーション設計戦略](./%5BRuby%5D_%5BFw%5D_Rails/migration-timing-strategy.md) / **[How]** [運用の作法](./%5BRuby%5D_%5BFw%5D_Rails-Migration/migration-workflow.md)
     *   🔗 [Active Record Associations](https://guides.rubyonrails.org/association_basics.html)
-    *   📝 **[What]** [テーブル関連付けの概念](./%5BRuby%5D_%5BFw%5D_Rails-Model/model-association.md)
+    *   📝 **[What]** [テーブル関連付けの概念](./%5BRuby%5D_%5BFw%5D_Rails-Model/model-association.md) / **[How]** [has_many :through 中間テーブル実装のガイド](./%5BRuby%5D_%5BFw%5D_Rails-Model/has-many-through-joins-guide.md)
 *   **認証基盤 (Authentication)**
     *   🔗 [Rails 8.0 Release Note](https://rubyonrails.org/2024/11/7/rails-8-no-paas-required) / [Security Guide](https://guides.rubyonrails.org/v8.0/security.html)
     *   📝 **[Why]** [Rails 8 公式認証 vs Devise の機能比較](./%5BRuby%5D_%5BFw%5D_Rails-Authentication/devise-vs-rails8-auth.md)
+*   **認可 & 監査 (Authorization & Audit)**
+    *   🔗 [Pundit (varvet/pundit)](https://github.com/varvet/pundit)
+    *   📝 **[What/Why]** [Pundit 認可の概念と活用事例](./%5BRuby%5D_%5BLib-Gem%5D_Pundit/pundit-authorization-concept.md)
+    *   🔗 [PaperTrail (paper-trail-gem)](https://github.com/paper-trail-gem/paper_trail)
+    *   📝 **[What/Why]** [PaperTrail 監査ログの仕組みと活用事例](./%5BRuby%5D_%5BLib-Gem%5D_PaperTrail/paper_trail-audit-log-concept.md)
 *   **品質管理 & 開発フロー**
     *   🔗 [RuboCop: Autocorrect](https://docs.rubocop.org/rubocop/usage/autocorrect.html)
     *   📝 **[How]** [RuboCop 自動修正ガイド](./%5BRuby%5D_%5BLib-Gem%5D_RuboCop/rubocop-autocorrect-guide.md)
