@@ -15,6 +15,8 @@
 *   **HTML: `autocomplete` 属性の仕様**
     *   🔗 [HTML Living Standard: Autofill](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill)
     *   📝 **[What]** [属性の役割と注意点](./%5BCmn%5D_%5BLang%5D_HTML/autocomplete-attribute.md)
+*   **開発環境: ゾンビ・ディレクトリ現象**
+    *   📝 **[Why]** [ゾンビ現象のメカニズムと分類](./%5BCmn%5D_%5BDevEnv%5D_Zombie-Phenomenon-Mechanics.md)
 
 ### 💎 [Ruby] Ruby on Rails
 *   **Rails 基礎 & Tips**
@@ -27,6 +29,8 @@
     *   🔗 [Hotwire](https://hotwired.dev/) ([Turbo](https://turbo.hotwired.dev/) / [Stimulus](https://stimulus.hotwired.dev/) / [Strada](https://strada.hotwired.dev/))
     *   🔗 [Tailwind CSS (official)](https://tailwindcss.com/)
     *   📝 **[Why]** [モダンフロントエンド技術の比較と立ち位置](./%5BRuby%5D_%5BFw%5D_Rails-Frontend-Standard/modern-frontend-comparison.md) / **[Decision]** [ADR 005: フロントエンド技術選定](../../environment/mfg_core/docs/architecture/adr/005-frontend-stack-selection.md)
+    *   📝 **[How]** [Rails 8 + Tailwind v4 標準セットアップ](./%5BRuby%5D_%5BFw%5D_Rails-Frontend-Standard/rails8-tailwind-v4-standard-setup.md)
+    *   📝 **[What]** [アセットビルドの裏側と Propshaft の仕組み](./%5BRuby%5D_%5BFw%5D_Rails-Frontend-Standard/rails-asset-build-mechanics.md)
 *   **データベース・設計**
     *   🔗 [Rails Guides: Migrations](https://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-new-table)
     *   📝 **[Why]** [マイグレーション設計戦略](./%5BRuby%5D_%5BFw%5D_Rails/migration-timing-strategy.md) / **[How]** [運用の作法](./%5BRuby%5D_%5BFw%5D_Rails-Migration/migration-workflow.md)
