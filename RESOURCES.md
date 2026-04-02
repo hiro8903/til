@@ -30,6 +30,8 @@
     *   📝 **[What]** [メソッドの出所（Ruby/Rails/Gem）を見極める技術](./%5BRuby%5D_%5BFw%5D_Rails/method-origin-identification-reference.md)
     *   🔗 [Action Controller Parameters](https://guides.rubyonrails.org/action_controller_overview.html#parameters)
     *   📝 **[Concept]** [params で受け取るデータの仕組み](./%5BRuby%5D_%5BFw%5D_Rails/rails-params-mechanics-concept.md)
+    *   🔗 [Rails Validations vs DB Constraints](https://guides.rubyonrails.org/active_record_validations.html#why-use-validations-questionmark)
+    *   📝 **[Why]** [モデルバリデーション vs DB 制約の棲み分け](./%5BRuby%5D_%5BFw%5D_Rails/rails-validation-vs-db-constraint-comparison.md)
     *   🔗 [Hotwire](https://hotwired.dev/) ([Turbo](https://turbo.hotwired.dev/) / [Stimulus](https://stimulus.hotwired.dev/) / [Strada](https://strada.hotwired.dev/))
     *   🔗 [Tailwind CSS (official)](https://tailwindcss.com/)
     *   📝 **[Why]** [モダンフロントエンド技術の比較と立ち位置](./%5BRuby%5D_%5BFw%5D_Rails-Frontend-Standard/modern-frontend-comparison.md) / **[Decision]** [ADR 005: フロントエンド技術選定](../../environment/mfg_core/docs/architecture/adr/005-frontend-stack-selection.md)
