@@ -49,6 +49,10 @@
     *   📝 **[How]** [RuboCop 自動修正ガイド](./%5BRuby%5D_%5BLib-Gem%5D_RuboCop/rubocop-autocorrect-guide.md)
     *   📝 **[How/Checklist]** [Rails 開発チェックリスト](./%5BRuby%5D_%5BFw%5D_Rails-Checklist/development-checklist.md)
 
+*   **Ruby エコシステム & ツール**
+    *   🔗 [RubyGems: Patterns](https://guides.rubygems.org/patterns/#pessimistic-version-constraint) / [Bundler: Gemfile](https://bundler.io/v2.4/man/gemfile.5.html)
+    *   📝 **[What]** [Gem のバージョニング完全ガイド](./%5BRuby%5D_%5BTool%5D_Bundler/gem-versioning-spec.md)
+
 ### 🚀 [JS] JavaScript & Tools
 *   **Node.js & 環境構築**
     *   📝 **[How]** [nodenv による Node.js セットアップ](./%5BJS%5D_%5BRun%5D_Nodejs/setup-nodejs.md)
