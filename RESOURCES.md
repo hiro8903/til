@@ -17,6 +17,10 @@
     *   📝 **[What]** [属性の役割と注意点](./%5BCmn%5D_%5BLang%5D_HTML/autocomplete-attribute.md)
 *   **開発環境: ゾンビ・ディレクトリ現象**
     *   📝 **[Why]** [ゾンビ現象のメカニズムと分類](./%5BCmn%5D_%5BDevEnv%5D_Zombie-Phenomenon-Mechanics.md)
+*   **Git: 運用ガイド**
+    *   📝 **[Action]** [git clone後の環境構築フロー](./%5BTool%5D_Git/git-clone-setup-flow.md)
+    *   📝 **[Concept]** [Pull Requestでの Squash Merge のコンフリクト解消（rebase --onto）](./%5BTool%5D_Git/resolve-squash-merge-conflict-rebase-onto.md)
+    *   📝 **[Technique]** [直前のコミットに修正を重ねる技術 (amend)](./%5BTool%5D_Git/git-commit-amend-guide.md)
 
 ### 💎 [Ruby] Ruby on Rails
 *   **Rails 基礎 & Tips**
