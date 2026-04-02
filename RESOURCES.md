@@ -26,6 +26,8 @@
     *   📝 **[What]** [Enum の基本と魔法](./%5BRuby%5D_%5BFw%5D_Rails/enum-basics-and-usage.md) / **[Why]** [Enum vs Boolean の比較](./%5BRuby%5D_%5BFw%5D_Rails/role-management-enum-vs-boolean.md)
     *   🔗 [ActionView::FormHelper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html)
     *   📝 **[What]** [フォームヘルパーとHTML属性の解剖](./%5BRuby%5D_%5BFw%5D_Rails/form-helpers-and-attributes.md)
+    *   🔗 [Ruby Method#source_location (ja)](https://docs.ruby-lang.org/ja/latest/method/Method/i/source_location.html)
+    *   📝 **[What]** [メソッドの出所（Ruby/Rails/Gem）を見極める技術](./%5BRuby%5D_%5BFw%5D_Rails/method-origin-identification-reference.md)
     *   🔗 [Hotwire](https://hotwired.dev/) ([Turbo](https://turbo.hotwired.dev/) / [Stimulus](https://stimulus.hotwired.dev/) / [Strada](https://strada.hotwired.dev/))
     *   🔗 [Tailwind CSS (official)](https://tailwindcss.com/)
     *   📝 **[Why]** [モダンフロントエンド技術の比較と立ち位置](./%5BRuby%5D_%5BFw%5D_Rails-Frontend-Standard/modern-frontend-comparison.md) / **[Decision]** [ADR 005: フロントエンド技術選定](../../environment/mfg_core/docs/architecture/adr/005-frontend-stack-selection.md)
